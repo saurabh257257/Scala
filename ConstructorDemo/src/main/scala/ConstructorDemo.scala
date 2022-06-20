@@ -25,7 +25,7 @@ class demoClass1(c:Int,d:Int)   //primary constructor or parameterized construct
   val a=c;
   val b=d;
   def add()=a+b;
-  
+
   def this()={
     this(100,200);
     println("I have come here in first constructor")
